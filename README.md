@@ -27,3 +27,16 @@ Steps will look for `.step` children of the element. Just initialize it so:
 # .coffee
 new Steps $ ".steps"
 ```
+
+This CSS is needed:
+```css
+.step {
+  display: none;
+}
+.step:first-of-type {
+  display: block;
+}
+```
+
+
+You can view/try the Codepen: http://codepen.io/joallard/pen/amXLON
